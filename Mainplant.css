@@ -1,0 +1,94 @@
+.mainplant-card {
+  width: 380px;
+  height: 463px;
+  position: absolute;
+  right: 50px;
+  top: 250px;   
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  backdrop-filter: blur(15px);
+
+  overflow: visible;
+
+}
+
+
+.mainplant-img {
+  width: 350px;
+  height: 400px;
+  margin: -90px auto 0 auto;
+  display: block;
+  position: relative;
+
+}
+
+.mainplant-content {
+  padding-left: 50px;
+  opacity: 80%;
+
+}
+
+.mainplant-small {
+  font-size: 18px;
+  color: white;
+  opacity: 75%;
+}
+
+.mainplant-title {
+  font-size: 25px;
+  font-weight: 100;
+  color: white;
+  opacity: 85%  ;
+}
+
+.mainplant-button {
+  margin-top: 12px;
+  width: 120px;
+  height: 40px;
+ 
+  background: transparent;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.mainplant-arrow {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 15px;
+  bottom: 102px;
+  opacity: 85%;
+}
+
+.mainplant-indicator {
+  position: absolute;
+  bottom: 10px;      
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.indicator-line {
+  width: 19px;
+  height: 4px;
+  background: white;
+  border-radius: 3px;
+  opacity: 95%;
+}
+
+
+.indicator-dot {
+  width: 6px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+  opacity: 95%;
+}

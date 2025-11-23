@@ -1,0 +1,161 @@
+
+.footer {
+  width: 100%;
+  background: #214123; 
+  padding: 60px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: white;
+  font-family: Inter, sans-serif;
+  position: relative;
+}
+
+
+.footer-left {
+  width: 33%;
+}
+
+
+.footer-logo-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-logo-img {
+  width: 60px;
+  height: auto;
+}
+
+
+
+.footer-logotext-img {
+  width: 160px;
+  height: auto;
+}
+
+
+.footer-description-box {
+  margin-top: 15px;
+  width: 280px;
+}
+
+.footer-description {
+  opacity: 0.75;
+  font-size: 15px;
+  line-height: 150%;
+}
+
+
+.footer-center {
+  width: 25%;
+}
+
+
+.quicklinks-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+
+.quicklinks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+
+.quicklink-item a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.75;
+  font-size: 16px;
+  border-bottom: 2px solid transparent;
+  width: fit-content;
+  padding-bottom: 2px;
+  transition: 0.25s ease;
+}
+
+
+.quicklink-item a:hover {
+  opacity: 1;
+  border-bottom: 2px solid white;
+}
+
+
+.footer-right {
+  width: 32%;
+}
+
+
+.subscribe-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+
+.subscribe-input-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+
+.email-input {
+  width: 260px;
+  height: 42px;
+  border-radius: 8px;
+  border: 1.5px solid white;
+  background: transparent;
+  padding-left: 12px;
+  color: white;
+  font-size: 15px;
+  outline: none;
+  opacity: 0.85;
+}
+
+.email-input::placeholder {
+  color: white;
+  opacity: 0.65;
+}
+
+
+.subscribe-btn {
+  width: 130px;
+  height: 42px;
+  border-radius: 8px;
+  background: white;
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+.subscribe-btn:hover {
+  background: transparent;
+  color: white;
+}
+
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  opacity: 0.6;
+  font-size: 14px;
+  position: absolute;
+  left: 600px;
+  bottom: 20px;
+}
+
+.footer-section {
+    width: 4px;
+    height: 4px;
+    color: white;
+}

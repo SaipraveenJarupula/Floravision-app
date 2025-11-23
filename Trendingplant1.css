@@ -1,0 +1,147 @@
+.plant1-section {
+  width: 100%;
+  position: relative;
+  margin-top: 200px;
+  top: -1130px;
+  right: 11px;
+}
+
+.plant1-bg {
+  width: 1300px;
+  height: 330px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 80px;
+}
+
+.plant1-title {
+  width: 380px;
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.plant1-img {
+  width: 500px;
+  position: absolute;
+  top: -140px;
+  left: 130px;
+  z-index: 10;
+}
+
+.plant1-content {
+  position: absolute;
+  top: 40px;
+  right: 25%;
+  width: 300px;
+  color: white;
+  font-family: Inter, sans-serif;
+  z-index: 05;
+}
+
+.plant1-heading {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 2;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+
+.plant1-desc {
+  width: 480px;        
+  line-height: 150%;  
+  word-break: normal;
+  white-space: normal;
+
+}
+
+.plant1-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.plant1-price {
+  top: 1200px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 3;
+  
+}
+.plant1-actions {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+
+.cart-box {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.cart-rect {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;  
+}
+
+.cart-bag {
+  position: absolute;
+  width: 20px;   
+  height: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  
+}
+
+
+.plant1-explore {
+  width: 140px;
+  height: 48px;
+  border: 2px solid white;
+  border-radius: 12px;
+  background: transparent;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.plant1-img:hover {
+  transform: translateY(-12px);
+  transition: 0.35s ease;
+}
+
+.plant1-explore:hover {
+  background: white;
+  color: black;  
+  transition: 0.3s ease;
+}
+
+.cart-box:hover {
+  transform: translateY(-4px);
+  transition: 0.25s ease;
+  filter: drop-shadow(0px 6px 12px rgba(255, 255, 255, 0.25));
+}
+
+
+.cart-box:hover .cart-rect {
+  filter: brightness(1.2);
+  transition: 0.25s ease;
+}
+
+
+.cart-box:hover .cart-bag {
+  transform: translate(-50%, -50%) scale(1.1);
+  filter: brightness(1.4);
+  transition: 0.25s ease;
+}
